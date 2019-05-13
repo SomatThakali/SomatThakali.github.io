@@ -572,6 +572,25 @@ section:nth-of-type(1) .button:hover .mdi {
   transform: rotate(90deg);
 }
 
+section:nth-of-type(1) .mdi-chevron-double-down {
+  position: absolute;
+  top: -25px;
+  background: #17181a;
+  font-size: 30pt;
+  width: 47px;
+  height: 50px;
+  line-height: 40pt;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background 0.5s;
+  top: 550px;
+}
+
+section:nth-of-type(1) .mdi-chevron-double-down:hover {
+  background: #302e31;
+}
 /* section2 */
 section:nth-of-type(3) .label-wrap .label {
   margin: 20px 0 10px 0;
@@ -1119,12 +1138,6 @@ footer .footnote .highlight {
   section:nth-of-type(1) .text {
     font-size: 32pt;
     line-height: 36pt;
-  }
-  section:nth-of-type(1) .button {
-    padding: 12px 50px 12px 20px;
-  }
-  section:nth-of-type(1) .button .mdi {
-    top: 16px;
   }
 
   /* section2 */
