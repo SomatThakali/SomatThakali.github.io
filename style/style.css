@@ -675,12 +675,7 @@ section:nth-of-type(3) .bar .tag {
   width: 110px;
   width: 70px;
 }
-section:nth-of-type(3) .bar.secondary {
-  background-color: #c51675;
-}
-section:nth-of-type(3) .bar.secondary .tag {
-  background-color: #e31b6d;
-}
+
 section:nth-of-type(3) .bar span {
   z-index: 1;
   padding: 0 15px 0 0;
@@ -1346,11 +1341,11 @@ footer .footnote .highlight {
 
 @keyframes text {
   0% {
-    color: red;
+    color: white;
     margin-bottom: -20px;
   }
   30% {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     margin-bottom: -20px;
   }
 }
