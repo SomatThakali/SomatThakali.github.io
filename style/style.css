@@ -1034,17 +1034,17 @@ footer .footnote .highlight {
   section:nth-of-type(3) .me {
     margin-left: 70px;
   }
-  .modal-wrap .button {
+  /* .modal-wrap .button {
     padding: 4px 10px;
     font-size: 7pt;
     right: 50px;
     bottom: 40px;
-  }
+  } */
   /* section:nth-of-type(2) #gallery .text .bold {
     display: none;
   } */
 
-  .modal-wrap .button2 {
+  /* .modal-wrap .button2 {
     padding: 4px 10px;
     font-size: 7pt;
     left: 10px;
@@ -1053,7 +1053,7 @@ footer .footnote .highlight {
 
   .modal-wrap .close {
     bottom: 45px;
-  }
+  } */
   /* section:nth-of-type(2) #gallery .mix:hover .button {
     padding: 70px;
     margin-top: 70px;
