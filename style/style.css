@@ -1027,19 +1027,39 @@ footer .footnote .highlight {
   color: #e31b6d;
 }
 
-@media screen and (max-width: 370px) {
-  section:nth-of-type(2) #gallery .mix:hover .button {
-    padding: 40px;
-    margin: 40px;
-    bottom: 50%;
-  }
-}
 @media screen and (max-width: 450px) {
   section:nth-of-type(2) #gallery .mix .card {
     width: 100vw;
   }
   section:nth-of-type(3) .me {
     margin-left: 70px;
+  }
+  .modal-wrap .button {
+    padding: 4px 10px;
+    font-size: 7pt;
+    right: 50px;
+    bottom: 40px;
+  }
+  section:nth-of-type(2) #gallery .text .bold {
+    display: none;
+  }
+
+  .modal-wrap .button2 {
+    padding: 4px 10px;
+    font-size: 7pt;
+    left: 10px;
+    bottom: 40px;
+  }
+
+  .modal-wrap .close {
+    bottom: 45px;
+  }
+  section:nth-of-type(2) #gallery .mix:hover .button {
+    padding: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    bottom: 0;
+    left: 0;
   }
 }
 @media screen and (min-width: 600px) {
