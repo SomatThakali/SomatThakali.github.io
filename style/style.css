@@ -1373,7 +1373,7 @@ footer .footnote .highlight {
   padding-bottom: 40px;
 }
 
-@keyframes text {
+/* @keyframes text {
   0% {
     color: white;
     margin-bottom: -20px;
@@ -1382,4 +1382,4 @@ footer .footnote .highlight {
     letter-spacing: 5px;
     margin-bottom: -20px;
   }
-}
+} */
