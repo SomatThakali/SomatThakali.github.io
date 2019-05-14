@@ -1041,19 +1041,6 @@ footer .footnote .highlight {
   section:nth-of-type(3) .me {
     margin-left: 70px;
   }
-
-  .modal-wrap .button2 {
-    padding: 4px 10px;
-    font-size: 7pt;
-    font-weight: 400;
-    left: 10px;
-  }
-  .modal-wrap .button {
-    padding: 4px 10px;
-    font-size: 7pt;
-    font-weight: 400;
-    right: 10px;
-  }
 }
 @media screen and (min-width: 600px) {
   body {
