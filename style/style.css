@@ -527,7 +527,7 @@ section .container {
 section:nth-of-type(1) {
   background: url("../img/home.jpg");
   padding: 0 10px;
-  color: #fff;
+  color: #5d5d5d;
   height: calc(100vh + 53px);
 }
 
@@ -844,19 +844,8 @@ section:nth-of-type(4) .blog-wrap {
   width: 100%;
   cursor: pointer;
 }
-section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("../img/blog-1.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("../img/blog-2.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("../img/blog-3.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("../img/blog-4.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap .fade-wrap {
+
+/* section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
 }
 section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
@@ -884,7 +873,7 @@ section:nth-of-type(4) .bar {
   width: 25%;
   background: #04c2c9;
   margin: 10px 0px;
-}
+} */
 section:nth-of-type(4) .text {
   font-size: 9pt;
   line-height: 13pt;
@@ -1038,9 +1027,25 @@ footer .footnote .highlight {
   color: #e31b6d;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   section:nth-of-type(2) #gallery .mix .card {
     width: 100vw;
+  }
+  section:nth-of-type(3) .me {
+    margin-left: 70px;
+  }
+
+  .modal-wrap .button2 {
+    padding: 4px 10px;
+    font-size: 7pt;
+    font-weight: 400;
+    left: 10px;
+  }
+  .modal-wrap .button {
+    padding: 4px 10px;
+    font-size: 7pt;
+    font-weight: 400;
+    left: 10px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -1090,9 +1095,7 @@ footer .footnote .highlight {
     font-size: 22pt;
     line-height: 30pt;
   }
-  .modal-wrap .tag {
-    font-size: 11pt;
-  }
+
   .modal-wrap .detail {
     font-size: 11pt;
     line-height: 18pt;
