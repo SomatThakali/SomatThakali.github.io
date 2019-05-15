@@ -180,18 +180,10 @@ $(function() {
   // CONTACT FORM
   $("#contact-form").submit(function(e) {
     e.preventDefault();
-
-    $.ajax({
-      url: "https://formspree.io/somatthakali89@gmail.com",
-      method: "POST",
-      data: { message: $("form").serialize() },
-      dataType: "json"
-    }).done(function(response) {
-      $("#success").addClass("expand");
-      $("#contact-form")
-        .find("input[type=text], input[type=email], textarea")
-        .val("");
-    });
+    $("#success").addClass("expand");
+    $("#contact-form")
+      .find("input[type=text], input[type=email], textarea")
+      .val("");
   });
 
   $("#close").click(function() {

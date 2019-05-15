@@ -591,7 +591,7 @@ section:nth-of-type(1) .mdi-chevron-double-down {
 section:nth-of-type(1) .mdi-chevron-double-down:hover {
   background: #302e31;
 }
-/* section2 */
+/* section 3 */
 section:nth-of-type(3) .label-wrap .label {
   margin: 20px 0 10px 0;
 }
@@ -1032,6 +1032,9 @@ footer .footnote .highlight {
   }
 }
 @media screen and (max-width: 450px) {
+  section:nth-of-type(3) .flex {
+    top: -40px;
+  }
   section:nth-of-type(2) #gallery .mix .card {
     width: 100vw;
   }
@@ -1045,10 +1048,6 @@ footer .footnote .highlight {
     bottom: 50px;
   }
 
-  /* section:nth-of-type(2) #gallery .text .bold {
-    display: none;
-  } */
-
   .modal-wrap .button2 {
     padding: 4px 10px;
     font-size: 7pt;
@@ -1057,19 +1056,12 @@ footer .footnote .highlight {
   }
 
   .modal-wrap .close {
-    bottom: 55px;
+    bottom: 50px;
   }
 
   .modal-wrap {
     height: 90vh;
   }
-  /* section:nth-of-type(2) #gallery .mix:hover .button {
-    padding: 70px;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    bottom: 0;
-    left: 0;
-  } */
 }
 @media screen and (min-width: 600px) {
   body {
