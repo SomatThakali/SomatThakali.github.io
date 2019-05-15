@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- HOSTED -->
+    <!-- FONTS AND MATERIAL DESIGN-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
       rel="stylesheet"
@@ -23,10 +23,10 @@
     />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <!-- LOCAL -->
+    <!-- CUSTOME CSS -->
     <link rel="stylesheet" href="style/style.css" />
 
-    <!-- normalize -->
+    <!-- NORMALIZE -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <!-- HOSTED -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -307,25 +307,14 @@ I have additional experience with various technologies like CSS, HTML, Python, a
             data-delay=".25s"
           ></div>
          
-          <form
-            class="waypoint"
-            data-animation="pop-in"
-            data-delay=".5s"
-            id="contact-form"
-           action="https://formspree.io/somatthakali89@gmail.com" method="POST" 
+         
+          <form method="POST" action="https://formspree.io/somatthakali89@gmail.com" class="waypoint"
+          data-animation="pop-in"
+          data-delay=".5s"
           >
-            <input placeholder="Name" type="text" name="name" required />
-            <input
-              placeholder="Enter email"
-              type="email"
-              name="email"
-              required
-            />
-            <textarea
-              placeholder="Your Message"
-              type="text"
-              name="message"
-            ></textarea>
+            <input  type="text" name="name"  placeholder="Name"required />
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Your Message"></textarea>
             <div id="success">
               <div>
                 Your message was sent successfully. Thanks!<span
@@ -334,7 +323,7 @@ I have additional experience with various technologies like CSS, HTML, Python, a
                 ></span>
               </div>
             </div>
-            <input class="button" type="submit" id="submit" value="SUBMIT" />
+            <button class="button" id="submit" type="submit">Send Test</button>
           </form>
         </div>
       </section>

@@ -177,7 +177,6 @@ $(function() {
     onScrollInit($(".waypoint"));
   }, 10);
 
-  // CONTACT FORM
   $("#contact-form").submit(function(e) {
     e.preventDefault();
     $("#success").addClass("expand");
