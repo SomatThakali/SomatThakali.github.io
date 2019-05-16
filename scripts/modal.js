@@ -21,7 +21,7 @@ $(document).ready(function() {
       title: "Something Borrow and Lend",
       tag: "SELF-SUFFICIENT COMMUNITIES",
       detail:
-        "Something Borrowed is a borrowing / lending web application that allows users to list items for lending others or to borrow items listed by others. By developing Something Borrowed, we want to create self-sufficient communities through a web application that allows users to lend and to borrow items from others.",
+        "Something Borrowed is a borrowing / lending web application that allows users to list items for lending others or to borrow items listed by others. By developing Something Borrowed, we want to create self-sufficient communities through a web application.",
       link: "https://something-borrowed-2019.herokuapp.com",
       link1: "https://github.com/SomatThakali/project2"
     },
