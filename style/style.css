@@ -886,6 +886,9 @@ footer .footnote .highlight {
   section:nth-of-type(1) h1 {
     font-size: 35px;
   }
+  .me {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -922,6 +925,10 @@ footer .footnote .highlight {
   .desc {
     font-size: 10pt;
   }
+
+  .me {
+    margin-bottom: 15px;
+  }
 }
 @media screen and (min-width: 500px) {
   .desc {
@@ -935,6 +942,9 @@ footer .footnote .highlight {
   }
   .desc {
     font-size: 15pt;
+  }
+  .me {
+    margin-bottom: 20px;
   }
   .container {
     padding: 0 20px;
