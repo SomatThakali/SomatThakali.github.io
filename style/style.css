@@ -569,7 +569,7 @@ section:nth-of-type(1) .mdi-chevron-double-down:hover {
 section:nth-of-type(3) {
   background: #302e31;
   color: #fff;
-  /* padding-top: 175px; */
+  padding-top: 175px;
 }
 
 section:nth-of-type(3) .skills-wrapper {
@@ -898,9 +898,7 @@ footer .footnote .highlight {
   section:nth-of-type(2) #gallery .mix .card {
     width: 100vw;
   }
-  /* section:nth-of-type(3) .me {
-    margin-left: 70px;
-  } */
+
   .modal-wrap .button {
     padding: 4px 10px;
     font-size: 7pt;
@@ -1036,7 +1034,7 @@ footer .footnote .highlight {
     line-height: 36pt;
   }
 
-  /* section2 */
+  /* section 3*/
   section:nth-of-type(3) {
     background: #302e31;
     color: #fff;
@@ -1064,54 +1062,10 @@ footer .footnote .highlight {
   section:nth-of-type(3) .skills-wrapper > .flex:first-child {
     padding: 0 50px 0 50px;
   }
-  /* section:nth-of-type(3) .skills-wrapper .me {
-    height: 250px;
-    margin-left: 150px;
-  } */
 
-  /* section:nth-of-type(3) .bar {
-    height: 28px;
-    margin: 0 0 15px 0;
-    font-size: 11pt;
-  }
-  section:nth-of-type(3) .bar span {
-    display: initial;
-  }
-  section:nth-of-type(3) .bar .tag {
-    width: 110px;
-  } */
   section:nth-of-type(3) .hexagon i {
     font-size: 40pt;
   }
-
-  /* section:nth-of-type(2) .filter {
-    font-size: 11pt;
-    margin: 0 15px;
-    padding: 0 30px;
-  }
-  section:nth-of-type(2) .float-bar {
-    height: 30px;
-  }
-  section:nth-of-type(2) #gallery .mix .card {
-    height: 300px;
-  }
-  section:nth-of-type(4) {
-    padding: 130px 0 180px 0;
-  }
-
-  section:nth-of-type(4) .text {
-    font-size: 11pt;
-    line-height: 15pt;
-  }
-  section:nth-of-type(4) .blog-wrap {
-    width: 400px;
-  }
-  section:nth-of-type(4) .thumb {
-    height: 200px;
-  }
-  section:nth-of-type(5) form {
-    min-width: 500px;
-  } */
 }
 @media screen and (min-width: 960px) {
   .waypoint {
@@ -1191,18 +1145,10 @@ footer .footnote .highlight {
 
   /* section2 */
 
-  section:nth-of-type(3) .bars-wrap {
-    margin: 0 0 0 0;
-  }
   section:nth-of-type(3) .skills-wrapper {
     margin: 50px 0 0 0;
   }
-  /* section:nth-of-type(3) .skills-wrapper .me {
-    margin: 0;
-  } */
-  section:nth-of-type(3) .bar {
-    max-width: 90%;
-  }
+
   section:nth-of-type(3) .bullet-wrap {
     margin: 0;
     padding: 0 10px;
