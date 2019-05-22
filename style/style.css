@@ -585,10 +585,6 @@ section:nth-of-type(3) {
   padding-top: 175px;
 }
 
-section:nth-of-type(3) .skills-wrapper {
-  align-items: flex-start;
-  width: 100%;
-}
 section:nth-of-type(3) .header {
   color: #fff;
 }
@@ -735,12 +731,6 @@ section:nth-of-type(4) .gradient {
   left: 0;
   height: 100%;
   width: 100%;
-}
-section:nth-of-type(4) .blog-wrap {
-  margin: 0 0 50px 0;
-  padding: 0 2px;
-  width: 100%;
-  cursor: pointer;
 }
 
 section:nth-of-type(4) .text {
@@ -1057,10 +1047,6 @@ footer .footnote .highlight {
     background: #fff;
     width: 110px;
   }
-
-  section:nth-of-type(3) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
-  }
 }
 @media screen and (min-width: 960px) {
   .waypoint {
@@ -1138,17 +1124,6 @@ footer .footnote .highlight {
     box-sizing: border-box;
   }
 
-  /* section2 */
-
-  section:nth-of-type(3) .skills-wrapper {
-    margin: 50px 0 0 0;
-  }
-
-  section:nth-of-type(3) .bullet-wrap {
-    margin: 0;
-    padding: 0 10px;
-    height: intial;
-  }
   section:nth-of-type(2) #gallery .mix .card {
     width: 390px;
   }
@@ -1162,12 +1137,6 @@ footer .footnote .highlight {
     font-size: 13pt;
     padding: 0 40px;
     margin: 0 25px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  section:nth-of-type(4) .blog-wrap {
-    width: 270px;
-    margin: 0 0 50px 20px;
   }
 }
 
