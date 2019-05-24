@@ -516,7 +516,7 @@ section .container {
   box-sizing: border-box;
 }
 section:nth-of-type(1) {
-  background: url("../img/home.jpg");
+  background: url("../img/1\ \(1\)\ \(1\).jpg");
   padding: 0 10px;
   color: #5d5d5d;
   height: calc(100vh + 53px);
@@ -531,27 +531,16 @@ section:nth-of-type(1) {
 section:nth-of-type(1) h1 span {
   font-family: "Raleway-semibold";
   font-weight: 900;
-  color: #00a3e1;
-  animation: text 2.5s 1;
-  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%),
-    0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%),
-    0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
-    0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%),
-    0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
-    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
-    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
-}
-section:nth-of-type(1),
-text span {
-  font-family: "Raleway-semibold";
-  font-weight: 200;
-  color: white;
   animation: text 2.5s 1;
 }
+
 section:nth-of-type(1) .text {
   margin: 0 0 20px 0;
-  font-size: 16pt;
-  line-height: 20pt;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51x;
   z-index: 1;
   pointer-events: none;
 }
@@ -574,6 +563,7 @@ section:nth-of-type(1) .mdi-chevron-double-down {
   margin: 20px auto 0 auto;
   cursor: pointer;
   transition: background 0.5s;
+  color: white;
 }
 
 section:nth-of-type(1) .mdi-chevron-double-down:hover {
@@ -886,11 +876,15 @@ footer .footnote .highlight {
   color: #e31b6d;
 }
 @media screen and (max-width: 375px) {
-  section:nth-of-type(1) h1 {
+  section:nth-of-type(1) .text h1 {
     font-size: 35px;
   }
   .me {
     margin-bottom: 15px;
+  }
+  section:nth-of-type(1) h1 {
+    font-size: 50pt;
+    line-height: 28pt;
   }
 }
 
@@ -930,11 +924,29 @@ footer .footnote .highlight {
   .me {
     margin-bottom: 15px;
   }
+
+  section:nth-of-type(1) h1 {
+    font-size: 17pt;
+    line-height: 25pt;
+  }
 }
 @media screen and (min-width: 500px) {
   .desc {
     font-size: 10pt;
     line-height: 19pt;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section:nth-of-type(1) .text {
+    font-size: 19pt;
+    line-height: 30pt;
+  }
+}
+@media screen and (max-width: 675px) {
+  section:nth-of-type(1) .text {
+    font-size: 20pt;
+    line-height: 36pt;
   }
 }
 
@@ -1032,10 +1044,6 @@ footer .footnote .highlight {
   }
   section .container {
     padding: 0 10px;
-  }
-  section:nth-of-type(1) .text {
-    font-size: 25pt;
-    line-height: 36pt;
   }
 
   section:nth-of-type(3) .header {
