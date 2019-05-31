@@ -6,7 +6,7 @@ $(document).ready(function() {
       tag: "BOOKING RETREATS.",
       detail:
         "Blue Llama Retreats offers overnight accommodations in the most unexpected places in New York City. Spend a night in Grand Central Station, Central Park or The High Line for a stay that will re-invigorate you and yours.",
-      link: "https://somatthakali.github.io/Project_1/templates/index.html",
+      link: "https://somatthakali.github.io/retreat/templates/index.html",
       link1: "https://github.com/SomatThakali/Project_1"
     },
     hangman: {
@@ -47,6 +47,12 @@ $(document).ready(function() {
         "LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives US back data.",
       link1: "https://github.com/SomatThakali/liri-node-app"
     }
+    // patient: {
+    //   title: "Patient Portal",
+    //   detail:
+    //     "Patient portal is an online data presentation portal for clinic patients to observe progress and view treatment plan. Patients will be able to access to quantitative information about their individualized rehabilitation progression from home, would be a major advance rehabilitation medicine",
+    //   link1: "https://github.com/SomatThakali/webPortalProduction"
+    // }
   };
 
   $("#gallery .button").on("click", function() {

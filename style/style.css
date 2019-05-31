@@ -606,7 +606,6 @@ section:nth-of-type(2) .float-bar {
   left: 30px;
   position: absolute;
   margin: auto 0;
-  position: absolute;
   overflow: hidden;
   height: 25px;
   border-radius: 1px;
@@ -686,6 +685,9 @@ section:nth-of-type(2) #gallery .mix:nth-child(5) .card {
 section:nth-of-type(2) #gallery .mix:nth-child(6) .card {
   background: url("../img/liri.png") center center/cover;
 }
+/* section:nth-of-type(2) #gallery .mix:nth-child(7) .card {
+  background: url("../img/liri.png") center center/cover;
+} */
 
 section:nth-of-type(2) #gallery .mix .card {
   height: 240px;

@@ -37,64 +37,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
   </head>
   <body>
-    <div class="overflow-wrap">
-      <!-- HOME -->
-      <div class="modal-wrap flex">
-        <div class="mask"></div>
-        <div class="modal" id="modal">
-          <div class="carousel-wrap">
-            <div class="window">
-              <div id="carousel">
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
-              </div>
-              <i class="mdi mdi-chevron-left" id="prev"></i>
-              <i class="mdi mdi-chevron-right" id="next"></i>
-            </div>
-          </div>
-          <div class="info-box">
-            <div class="title"></div>
-            <div class="detail"></div>
-            <a href="#" target="_blank"
-              ><div class="button">
-                <i class="mdi mdi-open-in-new"></i>LIVE DEMO
-              </div></a
-            >
-            <a href="#" target="_blank"
-            ><div class="button2">
-              <i class="mdi mdi-open-in-new"></i>GITHUB REPO
-            </div></a
-          >
-          </div>
-          <i class="close mdi mdi-close"></i>
+<div class="overflow-wrap">
+<!-- HOME -->
+<div class="modal-wrap flex">
+  <div class="mask"></div>
+  <div class="modal" id="modal">
+    <div class="carousel-wrap">
+      <div class="window">
+        <div id="carousel">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
         </div>
+        <i class="mdi mdi-chevron-left" id="prev"></i>
+        <i class="mdi mdi-chevron-right" id="next"></i>
       </div>
+    </div>
+    <div class="info-box">
+      <div class="title"></div>
+      <div class="detail"></div>
+      <a href="#" target="_blank"
+        ><div class="button">
+          <i class="mdi mdi-open-in-new"></i>LIVE DEMO
+        </div></a
+      >
+      <a href="#" target="_blank"
+      ><div class="button2">
+        <i class="mdi mdi-open-in-new"></i>GITHUB REPO
+      </div></a
+    >
+    </div>
+    <i class="close mdi mdi-close"></i>
+  </div>
+</div>
 
-      <section id="home" class="flex height-fix">
-        
-        <div class="flex">
-          <div class="text animated zoomIn delay-1s">
-            <h1 class="mb-20 heading">SOMAT THAKALI
-            <br />
-          </h1>
-            <span>I'm a full-stack web developer.</span>
-          </div>
+<section id="home" class="flex height-fix">
+  
+  <div class="flex">
+    <div class="text animated zoomIn delay-1s">
+      <h1 class="mb-20 heading">SOMAT THAKALI
+      <br />
+    </h1>
+      <span>I'm a full-stack web developer.</span>
+    </div>
 
-          <div><i class="mdi mdi-chevron-double-down page-link  animated slideInLeft delay-1s" dest="portfolio"></i></div>
+    <div><i class="mdi mdi-chevron-double-down page-link  animated slideInLeft delay-1s" dest="portfolio"></i></div>
 
-          <nav class="flex">
-            <div class="link-wrap">
-              <div class="active page-link" dest="home">home</div>
-              <div class="page-link" dest="portfolio">portfolio</div>
-              <div class="page-link" dest="about">about</div>
-              <div class="page-link" dest="skills">Skills</div>
-              <div class="page-link" dest="contact">contact</div>
-            </div>
-            <i class="mdi mdi-menu"></i>
-          </nav>
-        </div>
-      </section>
+    <nav class="flex">
+      <div class="link-wrap">
+        <div class="active page-link" dest="home">home</div>
+        <div class="page-link" dest="portfolio">portfolio</div>
+        <div class="page-link" dest="about">about</div>
+        <div class="page-link" dest="skills">Skills</div>
+        <div class="page-link" dest="contact">contact</div>
+      </div>
+      <i class="mdi mdi-menu"></i>
+    </nav>
+  </div>
+</section>
 
 <!-- PORTFOLIO -->
 <section class="flex" id="portfolio">
@@ -108,16 +108,16 @@
     ></div>
 
     <div class="filter-wrap waypoint" data-animation="fade-in">
-      <div class="flex row menu">
+      <div class="flex row">
         <div class="filter" data-filter="all">ALL</div>
-        <div class="filter" data-filter=".node">NODE.JS</div>
         <div class="filter" data-filter=".js">JAVASCRIPT</div>
+        <div class="filter" data-filter=".node">NODE.JS</div>
       </div>
       <div class="float-bar">
         <div class="flex row">
           <div class="filter" data-filter="all">ALL</div>
-          <div class="filter" data-filter=".node">NODE.JS</div>
           <div class="filter" data-filter=".js">JAVASCRIPT</div>
+          <div class="filter" data-filter=".node">NODE.JS</div>
         </div>
       </div>
     </div>
@@ -187,9 +187,6 @@
                 <div class="button" id="liri">LEARN MORE</div>
               </div>
             </div>
-     
-
-
     </div>
   </section>
 
@@ -255,7 +252,7 @@
 
             <div class="flex row-gt-sm  wow fadeInUp">
                 <i class="devicon-express-original colored logo"></i>
-                <i class="devicon-python-plain-wordmark colored logo"></i>
+                <i class="devicon-python-plain-wordmark  logo"></i>
                 <i class="devicon-django-plain-wordmark colored logo"></i>
                   
             </div>
@@ -307,7 +304,7 @@
                 ></span>
               </div>
             </div>
-            <button class="button" id="submit" type="submit">Send</button>
+            <button class="button" id="submit" type="submit">Send Message</button>
           </form>
         </div>
       </section>
