@@ -604,7 +604,7 @@ section:nth-of-type(2) .filter {
 section:nth-of-type(2) .all {
   font-size: 8pt;
   font-weight: 600;
-  padding: 0 40px;
+  padding: 0 43px;
   cursor: pointer;
   transition: background-color 0.5s;
 }
