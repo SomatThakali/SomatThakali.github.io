@@ -602,7 +602,7 @@ section:nth-of-type(2) .filter {
   transition: background-color 0.5s;
 }
 
-section:nth-of-type(2) .all {
+section:nth-of-type(2) #all {
   font-size: 8pt;
   font-weight: 600;
   padding: 0 43px;
@@ -610,7 +610,7 @@ section:nth-of-type(2) .all {
   transition: background-color 0.5s;
 }
 
-section:nth-of-type(2) .node {
+section:nth-of-type(2) #node {
   font-size: 8pt;
   font-weight: 600;
   padding: 0 30px;
@@ -638,6 +638,13 @@ section:nth-of-type(2) .float-bar .row {
   transition: left 0.5s ease-in-out;
 }
 section:nth-of-type(2) .float-bar .row .filter {
+  color: #fff;
+}
+section:nth-of-type(2) .float-bar .row #all {
+  color: #fff;
+}
+
+section:nth-of-type(2) .float-bar .row #node {
   color: #fff;
 }
 section:nth-of-type(2) .text {
@@ -1155,13 +1162,13 @@ footer .footnote {
     margin: 0 25px;
   }
 
-  section:nth-of-type(2) .all {
+  section:nth-of-type(2) #all {
     font-size: 13pt;
     padding: 0 70px;
     margin: 0 25px;
   }
 
-  section:nth-of-type(2) .node {
+  section:nth-of-type(2) #node {
     font-size: 13pt;
     padding: 0 50px;
     margin: 0 25px;
