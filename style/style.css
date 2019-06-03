@@ -529,7 +529,7 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(1) .text .heading {
-  font-family: "Raleway-semibold";
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   animation: text 2.5s 1;
   color: #00a3e1;
