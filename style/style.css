@@ -939,7 +939,7 @@ footer .footnote {
     height: 90vh;
   }
   .desc {
-    font-size: 10pt;
+    font-size: 12pt;
   }
 
   .me {
@@ -953,7 +953,7 @@ footer .footnote {
 }
 @media screen and (min-width: 500px) {
   .desc {
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 19pt;
   }
 }
