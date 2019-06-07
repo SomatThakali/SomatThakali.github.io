@@ -18,7 +18,7 @@ $(document).ready(function() {
       link1: "https://github.com/SomatThakali/Word-Guess-Game"
     },
     borrow: {
-      title: "Something Borrow and Lend",
+      title: "Something Borrow and Lent",
       tag: "SELF-SUFFICIENT COMMUNITIES",
       detail:
         "Something Borrowed is a borrowing / lending web application that allows users to list items for lending others or to borrow items listed by others. By developing Something Borrowed, we want to create self-sufficient communities through a web application.",
