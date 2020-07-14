@@ -1232,6 +1232,9 @@ image {
   .desc {
     padding: 0px;
   }
+  .me {
+    margin-top: 10px;
+  }
 }
 
 .mongoose {
